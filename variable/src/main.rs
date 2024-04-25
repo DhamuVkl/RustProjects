@@ -1,10 +1,10 @@
 fn main() {
-    let x = 4;
+    let mut x = 4;
     {
         let x = 2;
         print!("x is: {} \n", x);
-
     }
-    print!("x is: {} \n", x);
+     x += 1;
 
+    print!("x is: {} \n", x);
 }
