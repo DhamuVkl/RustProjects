@@ -10,7 +10,7 @@ fn main() {
     println!("{}",bol);
     println!("{}",letter);
     println!("{}",letter1);
-    println!("{}",tuple.0);
+    println!("{:?}",tuple);
     println!("x is {}", x);
 }
  
