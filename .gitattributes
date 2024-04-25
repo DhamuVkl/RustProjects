@@ -1,5 +1,0 @@
-*.html linguist-detectable=false
-*.rs linguist-language=Rust
-*.make linguist-detectable=false
-*.sol linguist-language=Solidity
-Makefile filter=lfs diff=lfs merge=lfs -text
