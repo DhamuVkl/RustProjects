@@ -11,6 +11,13 @@ fn main() {
     println!("{:?}", tuple_a);
     let x: f64 = 10.9;
 
+    let mut arr = [0, 1, 2, 3, 4];
+    println!("{}", arr[3]);
+    println!("{:?}", arr);
+    arr[3] = 8;
+    println!("{:?}", arr);
+
+
     println!("{}", bol);
     println!("{}", letter);
     println!("{}", letter1);
