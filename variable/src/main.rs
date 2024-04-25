@@ -11,6 +11,5 @@ fn main() {
 
     println!("y is: {}", Y);
 
-
     println!("x is: {} \n", x);
 }
