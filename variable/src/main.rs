@@ -5,7 +5,12 @@ fn main() {
         let x = 2;
         println!("x is: {} \n", x);
     }
-    let x = x + 1;
+    let x = "hello";
+
+    const Y: u32 = 90;
+
+    println!("y is: {}", Y);
+
 
     println!("x is: {} \n", x);
 }
