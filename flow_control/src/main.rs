@@ -4,5 +4,8 @@ fn main() {
 
     println!("{}", cond1);
 
-
+    let food = "cookie";
+    if food == "cookie" {         // () not mandotary
+        println!("I like it!");
+    }
 }
